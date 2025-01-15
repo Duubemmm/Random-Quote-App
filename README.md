@@ -74,7 +74,7 @@ Click the "New Quote" button to generate a random quote.
 
 ├── styles.css            Main CSS file
 
-├── script.js             Main JavaScript file
+├── main.js             Main JavaScript file
 
     
 **index.html:** Contains the structure of the app.
