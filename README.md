@@ -70,16 +70,12 @@ Click the "New Quote" button to generate a random quote.
 
 # Project Structure
 
-├── index.html            # Main HTML file
+├── index.html            Main HTML file
 
-├── css/
-│   ├── styles.css        # Main CSS file
+├── styles.css            Main CSS file
 
-├── js/
-│   ├── script.js         # Main JavaScript file
+├── script.js             Main JavaScript file
 
-└── assets/
-    ├── images/           # Images used (optional)
     
 **index.html:** Contains the structure of the app.
 
