@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quotes For The Day</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
     <div class="container">
-        <h1>Quote For Today</h1>
-        <div id="display-area"></div>
-        <button id="next-button">Next Quote</button>
+      <div class="header">
+        <button id="famousQuotesButton" class="famous-quotes">Famous Quotes</button>
+        <button id="inspirationalQuotesButton" class="inspirational-quotes">Inspirational</button>
+      </div>
+        <div class="display-area"></div>
+        <div class="button-div">
+            <button id="randomButton">
+              Random
+              <img src="Images/link.svg" alt="link" />
+            </button>
+            <button id="shareButton">
+              Share
+              <img src="Images/regroup.svg" alt="share" />
+            </button>
+          </div>
+        <!-- <button id="nextQuoteButton" class="next-button">Next Quote</button> -->
     </div>
+    <!-- <div class="button-div">
+        <button id="randomButton">
+          Random
+          <img src="Images/link.svg" alt="link" />
+        </button>
+        <button id="shareButton">
+          Share
+          <img src="Images/regroup.svg" alt="share" />
+        </button>
+      </div> -->
+    </main>
+    </body>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
