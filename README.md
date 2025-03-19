@@ -18,17 +18,36 @@ Welcome to the Random Quote App! This project is a simple web application that d
 
 # Overview
 
-The Random Quote App generates a random quote from a collection of quotes and displays it dynamically on the web page. Users can interact with a button to get a new quote or copy the current quote. The app is built with HTML, CSS, and JavaScript and is designed to be responsive across devices.
+This is a Random Quote App that displays famous and inspirational quotes fetched from an API. Users can view random quotes, filter quotes by category (famous or inspirational), and share or copy quotes to the clipboard. The app is built using HTML, CSS, and JavaScript.
 
 https://github.com/Duubemmm/Random-Quote-App
 
 # Features
 
-Dynamic Quote Generation: Displays a new random quote with each button click.
+**Random Quote Generation:**
 
-Responsive Design: Optimized for desktop, tablet, and mobile devices.
+Fetches quotes from an external API.
 
-Minimalist Design: Clean and user-friendly UI.
+Displays a random quote when the page loads.
+
+Users can generate a new random quote by clicking the "Random" button.
+
+**Filter Quotes by Category:**
+
+Users can view only **famous quotes** or **inspirational quotes** by clicking the respective buttons.
+
+The author's name is displayed prominently above the quote.
+
+**Share or Copy Quotes:**
+
+Users can share quotes using the **Web Share API.**
+
+If the Web Share API is not supported, the quote is copied to the clipboard.
+
+**Responsive Design:**
+
+The app is fully responsive and works seamlessly on different screen sizes
+
 
 # Built With
 
@@ -37,6 +56,10 @@ Minimalist Design: Clean and user-friendly UI.
 **CSS3:** For styling and layout.
 
 **JavaScript (ES6):** For functionality and interactivity.
+
+**Fetch API:** To retrieve quotes from the external API.
+
+**Web Share API:** For sharing quotes (with a fallback to clipboard copying).
 
 **VS Code:** Preferred IDE for development.
 
@@ -62,11 +85,25 @@ cd random-quote-app
 
 Open index.html in your browser to view the app.
 
-# Usage
+# How To Use
 
-Open the app in your browser.
+**View a Random Quote:**
 
-Click the "New Quote" button to generate a random quote.
+When the page loads, a random quote is displayed.
+
+Click the **Random button** to generate a new random quote
+
+**Filter Quotes:**
+
+Click the **Famous Quotes** button to view only famous quotes.
+
+Click the **Inspirational button** to view only inspirational quotes.
+
+**Share or Copy Quotes:**
+
+Click the **Share button** to share the quote using the Web Share API.
+
+If the Web Share API is not supported, the quote will be copied to the clipboard.
 
 # Project Structure
 
@@ -76,14 +113,21 @@ Click the "New Quote" button to generate a random quote.
 
 ├── main.js             Main JavaScript file
 
-    
+├── Images/             Folder for images 
+  
 **index.html:** Contains the structure of the app.
 
 **css/styles.css:** Custom styles for the UI.
 
 **js/script.js:**  Handles the quote generation logic.
 
-**assets/:** Contains any images or static assets used in the project.
+**Images/:** Contains any images or static assets used in the project.
+
+# API Used
+
+The app fetches quotes from the following API:
+
+https://raw.githubusercontent.com/devchallenges-io/curriculum/refs/heads/main/3-javascript/challenges/group_1/data/random-quotes.json
 
 # Author
 
