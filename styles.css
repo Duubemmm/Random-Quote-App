@@ -1,22 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family:'Hanken Grotesk', 'sans-serif';
+body {
+  font-family: "Hanken Grotesk", "sans-serif";
   background-color: rgb(22, 23, 39);
 }
 
-main{
+main {
   height: 60vh;
   margin: 2rem auto;
   width: 80%;
 }
-.container{
+.container {
   padding: 0.5rem 3rem;
   border-radius: 15px;
   width: 100%;
@@ -29,7 +29,7 @@ main{
   position: relative;
 }
 
-.header{
+.header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,26 +37,28 @@ main{
   margin: 2rem auto;
 }
 
-.display-area{
+.display-area {
   padding: 1.2rem;
   color: rgb(248, 248, 242);
   font-size: 16px;
   font-weight: 600;
   margin-top: 1rem;
-  border-radius:7px ;
+  border-radius: 7px;
 }
 
-.famous-quotes, .inspirational-quotes{
+.famous-quotes,
+.inspirational-quotes {
   outline: none;
-  color:rgb(172, 146, 196) ;
+  color: rgb(172, 146, 196);
   background-color: transparent;
   padding: 0.5rem;
   border-radius: 8px;
-  border: 1px solid rgb(172, 146, 196) ;
+  border: 1px solid rgb(172, 146, 196);
   font-size: medium;
 }
 
-.inspirational-quotes:hover, .famous-quotes:hover{
+.inspirational-quotes:hover,
+.famous-quotes:hover {
   background-color: rgb(172, 146, 196);
   color: rgb(34, 37, 49);
 }
@@ -64,26 +66,25 @@ main{
 .author {
   font-size: 1.5rem;
   font-weight: bold;
-  color:white;
-  margin-bottom: 10px;
+  color: white;
+  margin-bottom: 15px;
   position: absolute;
   top: 0.1rem;
   left: 30%;
   font-style: italic;
-  
 }
 
-.next-button{
-    display: block;
-    background-color: rgb(34, 37, 49);
-    color:rgb(172, 146, 196) ;
-    box-shadow: 2px 2px 1px rgb(172, 146, 196) ;
-    border: none;
-    border-radius: 7px;
-    margin: 2.5rem auto;
-    font-size:16px;
-    padding: 0.7rem;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+.next-button {
+  display: block;
+  background-color: rgb(34, 37, 49);
+  color: rgb(172, 146, 196);
+  box-shadow: 2px 2px 1px rgb(172, 146, 196);
+  border: none;
+  border-radius: 7px;
+  margin: 2.5rem auto;
+  font-size: 16px;
+  padding: 0.7rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #next-button:hover {
@@ -91,35 +92,37 @@ main{
   transform: translateY(-3px);
 }
 
-.button-div{
+.button-div {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 1.2rem;
 }
 
-#randomButton, 
-#shareButton{
+#randomButton,
+#shareButton {
   background-color: rgb(34, 37, 49);
-  box-shadow: 2px 2px 1px rgb(172, 146, 196) ;
+  box-shadow: 2px 2px 1px rgb(172, 146, 196);
   border: none;
   border-radius: 8px;
   margin: 1rem 10px;
-  font-size:16px;
+  font-size: 16px;
   padding: 0.7rem;
   outline: none;
   display: flex;
   gap: 5px;
   color: whitesmoke;
-  font-family:'Hanken Grotesk', 'sans-serif';
+  font-family: "Hanken Grotesk", "sans-serif";
 }
 
-#shareButton:hover, #randomButton:hover{
+#shareButton:hover,
+#randomButton:hover {
   background-color: rgb(126, 120, 113);
   transform: translateY(-3px);
 }
 
-img{
+img {
   display: inline-block;
   height: 20px;
 }
+
