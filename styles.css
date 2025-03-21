@@ -55,6 +55,7 @@ main {
   border-radius: 8px;
   border: 1px solid rgb(172, 146, 196);
   font-size: medium;
+  margin-top: 0.6rem;
 }
 
 .inspirational-quotes:hover,
@@ -64,7 +65,7 @@ main {
 }
 
 .author {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: white;
   margin-bottom: 15px;
